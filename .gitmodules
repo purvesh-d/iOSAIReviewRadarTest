@@ -1,0 +1,4 @@
+[submodule "SubModule"]
+	path = SubModule
+	url = https://purveshdodiya@bitbucket.org/purveshdodiya/android-onboarding.git
+	branch = develop
