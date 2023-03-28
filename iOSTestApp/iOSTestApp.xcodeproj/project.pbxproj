@@ -14,6 +14,7 @@
 		E636553429D34BB000307D70 /* iOSTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636553329D34BB000307D70 /* iOSTestAppTests.swift */; };
 		E636553E29D34BB000307D70 /* iOSTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636553D29D34BB000307D70 /* iOSTestAppUITests.swift */; };
 		E636554029D34BB000307D70 /* iOSTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636553F29D34BB000307D70 /* iOSTestAppUITestsLaunchTests.swift */; };
+		E636554D29D34C3C00307D70 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636554C29D34C3C00307D70 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E636553929D34BB000307D70 /* iOSTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E636553D29D34BB000307D70 /* iOSTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestAppUITests.swift; sourceTree = "<group>"; };
 		E636553F29D34BB000307D70 /* iOSTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E636554C29D34C3C00307D70 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				E636552229D34BAF00307D70 /* iOSTestAppApp.swift */,
+				E636554C29D34C3C00307D70 /* ContentViewModel.swift */,
 				E636552429D34BAF00307D70 /* ContentView.swift */,
 				E636552629D34BB000307D70 /* Assets.xcassets */,
 				E636552829D34BB000307D70 /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				E636552529D34BAF00307D70 /* ContentView.swift in Sources */,
 				E636552329D34BAF00307D70 /* iOSTestAppApp.swift in Sources */,
+				E636554D29D34C3C00307D70 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
