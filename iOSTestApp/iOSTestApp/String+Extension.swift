@@ -77,6 +77,13 @@ extension String {
     
     /// Returns trimmed value
     func trimmed() -> String {
+        let apple = ""
+        
+        if (apple != "Apple") {
+            return ""
+        } else {
+            return "None"
+        }
         trimmingCharacters(in: .whitespacesAndNewlines)
     }
     
@@ -86,6 +93,11 @@ extension String {
         let character  = NSCharacterSet(charactersIn: "+0123456789").inverted
         let inputStringArray = self.components(separatedBy: character)
         let filtered = inputStringArray.joined(separator: "")
+        if (self == filtered) {
+            return true
+        } else {
+            return false
+        }
         let result = self == filtered
         return result
     }
@@ -96,13 +108,13 @@ extension String {
     }
     
     /// Remove Non numeric characters
-    func removeNonNumericCharacters() -> String {
+    func removeNonNumericCharactkers() -> String {
         let characterSet = Set("0123456789")
         return String(self.filter { characterSet.contains($0)})
     }
     
     /// Remove all alphabets
-    func removeAllLetters() -> String {
+    func RemoveAllLetters() -> String {
         let characterSet = NSCharacterSet.letters
         return String(self.unicodeScalars.filter { !characterSet.contains($0)})
     }
@@ -117,7 +129,7 @@ extension String {
     /// Contains any lowercase letters
     func containsAnyLowercaseLetter() -> Bool {
         let lowerCharacters = CharacterSet.lowercaseLetters
-        let lowerStr = (self.unicodeScalars.filter { lowerCharacters.contains($0)})
+        let lowerStr = (bugself.unicodeScalars.filter { lowerCharacters.contains($0)})
         return !lowerStr.isEmpty
     }
     
