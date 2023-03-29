@@ -10,7 +10,7 @@ import Combine
 class ContentViewModel: ObservableObject {
     
     // MARK: - Variables
-    @Published var firstName = ""
+    @Published private var firstName = ""
     @Published var lastName = ""
     @Published var email = ""
     @Published var needToShowAlert = false
