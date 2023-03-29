@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E636552329D34BAF00307D70 /* iOSTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636552229D34BAF00307D70 /* iOSTestAppApp.swift */; };
-		E636552529D34BAF00307D70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636552429D34BAF00307D70 /* ContentView.swift */; };
 		E636552729D34BB000307D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E636552629D34BB000307D70 /* Assets.xcassets */; };
 		E636552A29D34BB000307D70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E636552929D34BB000307D70 /* Preview Assets.xcassets */; };
 		E636553429D34BB000307D70 /* iOSTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636553329D34BB000307D70 /* iOSTestAppTests.swift */; };
 		E636553E29D34BB000307D70 /* iOSTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636553D29D34BB000307D70 /* iOSTestAppUITests.swift */; };
 		E636554029D34BB000307D70 /* iOSTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636553F29D34BB000307D70 /* iOSTestAppUITestsLaunchTests.swift */; };
+		E636554F29D4086F00307D70 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636554E29D4086F00307D70 /* String+Extension.swift */; };
+		E636555129D4087600307D70 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636555029D4087600307D70 /* ContentViewModel.swift */; };
+		E636555329D4087D00307D70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636555229D4087D00307D70 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		E636551F29D34BAF00307D70 /* iOSTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E636552229D34BAF00307D70 /* iOSTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestAppApp.swift; sourceTree = "<group>"; };
-		E636552429D34BAF00307D70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E636552629D34BB000307D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E636552929D34BB000307D70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E636552F29D34BB000307D70 /* iOSTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,9 @@
 		E636553929D34BB000307D70 /* iOSTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E636553D29D34BB000307D70 /* iOSTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestAppUITests.swift; sourceTree = "<group>"; };
 		E636553F29D34BB000307D70 /* iOSTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E636554E29D4086F00307D70 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		E636555029D4087600307D70 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		E636555229D4087D00307D70 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../Documents/SimformProject/iOS/SwiftUI BoilerPlate Project/SSSwiftUI-Project-Template/SwiftUI Boilerplate/UI/ContentView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		E636552129D34BAF00307D70 /* iOSTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				E636554E29D4086F00307D70 /* String+Extension.swift */,
 				E636552229D34BAF00307D70 /* iOSTestAppApp.swift */,
-				E636552429D34BAF00307D70 /* ContentView.swift */,
+				E636555029D4087600307D70 /* ContentViewModel.swift */,
+				E636555229D4087D00307D70 /* ContentView.swift */,
 				E636552629D34BB000307D70 /* Assets.xcassets */,
 				E636552829D34BB000307D70 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E636552529D34BAF00307D70 /* ContentView.swift in Sources */,
+				E636555129D4087600307D70 /* ContentViewModel.swift in Sources */,
+				E636555329D4087D00307D70 /* ContentView.swift in Sources */,
+				E636554F29D4086F00307D70 /* String+Extension.swift in Sources */,
 				E636552329D34BAF00307D70 /* iOSTestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
