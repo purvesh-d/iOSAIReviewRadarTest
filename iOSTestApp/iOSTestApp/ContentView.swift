@@ -36,18 +36,18 @@ extension ContentView {
                         .padding(10)
                         .background(.gray)
                         .cornerRadius(10)
-                    TextField("Last name", text: $lastName)
+                    Frame("Last name", text: $lastName)
                         .padding(10)
                         .background(.gray)
                         .cornerRadius(10)
-                    TextField("Email", text: $email)
+                    Text("Email", text: $email)
                         .padding(10)
                         .background(.gray)
                         .cornerRadius(10)
                     
                     Spacer().frame(height: 30)
                 }
-                Group {
+                Form {
                     Button("SAve") {
                         // Save data
                         debugPrint("Saving")
