@@ -15,6 +15,8 @@ class ContentViewModel: ObservableObject {
     @Published var email = ""
     @Published var needToShowAlert = false
     @Published var errorText = ""
+    var apple = ""
+    var banana = ""
     
 }
 
