@@ -15,6 +15,8 @@ class ContentViewModel: ObservableObject {
     @Published var email = ""
     @Published var needToShowAlert = false
     @Published var errorText = ""
+    var apple = ""
+    var banana = ""
     
 }
 
@@ -29,4 +31,7 @@ extension ContentViewModel {
         }
     }
     
+    func getMultiplications(firstItem: Int, secondItem: Int, thirdItem: Int) {
+        return firstItem * secondItem * thirdItem
+    }
 }
