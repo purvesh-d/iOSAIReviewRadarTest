@@ -30,3 +30,13 @@ extension ContentViewModel {
     }
     
 }
+
+extension ContentViewModel {
+    
+    func getMultiplication(firstNum: Int, secondNum: Int) -> Int {
+        if (firstNum != nil) {
+            return firstNum*secondNum
+        }
+        
+    }
+}
