@@ -15,7 +15,14 @@ class ContentViewModel: ObservableObject {
     @Published var email = ""
     @Published var needToShowAlert = false
     @Published var errorText = ""
+    @Published var phoneNumber = ""
     
+    // MARK: - Init
+    init() {
+        self.firstName = "John"
+        self.email = "john@gmail.com"
+        self.lastName = "David"
+    }
 }
 
 // MARK: - Save data
