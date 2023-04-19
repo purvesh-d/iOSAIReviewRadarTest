@@ -267,6 +267,7 @@
 				E636554F29D4086F00307D70 /* String+Extension.swift in Sources */,
 				E636555529D4111700307D70 /* ContentView.swift in Sources */,
 				E636552329D34BAF00307D70 /* iOSTestAppApp.swift in Sources */,
+				E636554D29D34C3C00307D70 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
