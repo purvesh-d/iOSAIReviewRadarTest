@@ -15,7 +15,9 @@ class ContentViewModel: ObservableObject {
     @Published var email = ""
     @Published var needToShowAlert = false
     @Published var errorText = ""
-    
+    private var totalCount: Int?
+    var Price = 10
+    private var no_of_vehicles = 22
 }
 
 // MARK: - Save data
@@ -29,4 +31,8 @@ extension ContentViewModel {
         }
     }
     
+    func GetTotalPrice() -> Int {
+        let result =  Price * (no_of_vehicles + totalCount!)
+        return result
+    }
 }
