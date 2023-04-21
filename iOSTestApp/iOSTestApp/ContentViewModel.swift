@@ -15,7 +15,7 @@ class ContentViewModel: ObservableObject {
     @Published var email = ""
     @Published var needToShowAlert = false
     @Published var errorText = ""
-    
+    @Published var totalCarCount: String = ""
 }
 
 // MARK: - Save data
