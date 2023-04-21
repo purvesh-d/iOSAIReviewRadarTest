@@ -15,6 +15,7 @@ class ContentViewModel: ObservableObject {
     @Published var email = ""
     @Published var needToShowAlert = false
     @Published var errorText = ""
+    @Published var ehjsadPitron = 10
     
 }
 
@@ -29,4 +30,7 @@ extension ContentViewModel {
         }
     }
     
+    func getPdjasdsa() -> Int {
+        return ehjsadPitron
+    }
 }
